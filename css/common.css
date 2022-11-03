@@ -112,6 +112,8 @@ img {
 .link-nav:hover,
 .link-nav:focus {
     color: var(--secondary-logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .list-contact {
@@ -142,7 +144,9 @@ img {
 .link-contact:hover,
 .link-contact:focus {
     color: var(--secondary-logo-color);
-    /* fill: var(--secondary-logo-color); */
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .link-contact-icon {
@@ -155,6 +159,8 @@ img {
 .link-contact-icon:focus,
 .link-contact-icon:hover {
     fill: var(--secondary-logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -213,6 +219,8 @@ img {
 .location:hover,
 .location:focus {
     color: var(--secondary-logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact {
@@ -227,6 +235,8 @@ img {
 .contact:hover,
 .contact:focus {
     color: var(--secondary-logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* -------------------------------------------------------- */
 
@@ -279,4 +289,6 @@ img {
 .social-link:focus,
 .social-link:hover {
     background-color: var(--secondary-logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
