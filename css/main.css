@@ -267,14 +267,16 @@ text-align: center;
     
     align-items: center;
     justify-content: center;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link:focus,
 .icon-link:hover {
     background-color: var(--secondary-logo-color);
     color: var(--white-text-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link-item {
@@ -319,15 +321,17 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: color, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
    }
 
    .clients-link:focus,
    .clients-link:hover {
     border: 1px solid var(--secondary-logo-color);
     color: var(--secondary-logo-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   }
+    }
 
    .clients-icon {
       fill: currentColor; 

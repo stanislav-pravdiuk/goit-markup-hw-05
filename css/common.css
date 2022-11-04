@@ -107,13 +107,16 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-nav:hover,
 .link-nav:focus {
     color: var(--secondary-logo-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
  }
 
 .list-contact {
@@ -130,6 +133,15 @@ img {
     text-decoration: none;
     align-items: center;
     display: flex;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--secondary-logo-color);
 }
 
 .link-item {
@@ -140,27 +152,20 @@ img {
     margin-right: 0px;
 }
 
-
-.link-contact:hover,
-.link-contact:focus {
-    color: var(--secondary-logo-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
-
 .link-contact-icon {
     width: 16px;
     height: 16px;
     margin-right: 10px;
     fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contact-icon:focus,
 .link-contact-icon:hover {
     fill: var(--secondary-logo-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -214,13 +219,14 @@ img {
     line-height: 1.7;
     text-decoration: none;
     font-style: normal;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .location:hover,
 .location:focus {
     color: var(--secondary-logo-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact {
@@ -230,13 +236,15 @@ img {
     line-height: 1.7;
     text-decoration: none;
     font-style: normal;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
 .contact:focus {
     color: var(--secondary-logo-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* -------------------------------------------------------- */
 
@@ -282,6 +290,10 @@ img {
     
     align-items: center;
     justify-content: center;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -289,6 +301,4 @@ img {
 .social-link:focus,
 .social-link:hover {
     background-color: var(--secondary-logo-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
