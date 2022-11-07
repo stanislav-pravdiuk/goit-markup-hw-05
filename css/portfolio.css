@@ -101,11 +101,10 @@
 
 .work-list-link {
     position: relative;
-        
+    
 }
 
-
-.work-list-link:hover::before,
+/* .work-list-link:hover::before,
 .work-list-link:focus::before {
 content: '';
 width: 370px;
@@ -113,7 +112,7 @@ height: 294px;
 background-color: rgba(33, 150, 243, 0.9);
 position: absolute;
 
-}
+} */
 
 .work-list-container {}
 
@@ -128,6 +127,7 @@ position: absolute;
     padding-left: 24px;
     padding-right: 24px;
     color: #FFFFFF;
+    background-color: rgba(33, 150, 243, 0.9);
 
     position: absolute;
     top: 0;
@@ -136,15 +136,18 @@ position: absolute;
     height: 294px;
 
     opacity: 0;
+    transform: translateY(100%);
     
-    transition-property: opacity;
+    transition-property: opacity, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }    
 
 .work-list-link:focus .work-list-description,
 .work-list-link:hover .work-list-description {
     opacity: 1;
+    transform: translateY(0%);
     
 }
 

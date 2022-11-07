@@ -119,6 +119,28 @@ img {
     
  }
 
+ /* .link-nav::after {
+    content: '';
+
+    display: block;
+    width: 100%;
+    height: 4px;
+
+    background-color: #2196F3;
+    border-radius: 2px;
+
+    opacity: 0;
+
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ } */
+/* 
+ .link-nav:focus::after,
+ .link-nav:hover::after {
+    opacity: 1;
+ } */
+
 .list-contact {
     display: flex;
     margin-left: auto;
@@ -170,6 +192,21 @@ img {
 
 .current {
     color: var(--secondary-logo-color);
+   
+}
+
+.current::after {
+    content: '';
+
+    position: relative;
+    top: 32px;
+    display: block;
+    width: 100%;
+    height: 4px;
+
+    background-color: #2196F3;
+    border-radius: 2px;
+
 }
 
 
