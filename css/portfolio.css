@@ -1,9 +1,5 @@
 /* ----------------------------header----------------------------*/
 
-.page-header {
-
-}
-
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -106,18 +102,6 @@
     
 }
 
-/* .work-list-link:hover::before,
-.work-list-link:focus::before {
-content: '';
-width: 370px;
-height: 294px;
-background-color: rgba(33, 150, 243, 0.9);
-position: absolute;
-
-} */
-
-.work-list-container {}
-
 .work-list-description {
     font-style: normal;
     font-weight: 400;
@@ -189,3 +173,4 @@ position: absolute;
     border-left: 1px solid rgba(238, 238, 238, 1);
     border-right: 1px solid rgba(238, 238, 238, 1);
 }
+
